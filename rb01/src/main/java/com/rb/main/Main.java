@@ -5,11 +5,11 @@ import com.rb.entity.Course;
 import com.rb.entity.PermanentResourcer;
 import com.rb.entity.Student;
 import com.rb.entity.VisitorResourcer;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
 
