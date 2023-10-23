@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb01 completed">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/serviceImpl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/homework/hw3-rb02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/PermanentResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/VisitorResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb02/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb03/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb03/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb04/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb04/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,44 +56,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "be854a5af8c84a94e78bd9c2956ab157",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4bfd45d53750d77480be1e6f89cbe365&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb03\src\main\resources\META-INF" />
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject" />
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\META-INF" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java\com\rb\application" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java\com\rb\entity" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\META-INF\Homework-file" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\homework" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rb.main.Main" />
       <module name="rb01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rb.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rb02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rb.application.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rb.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1697047249963</updated>
       <workItem from="1697047251277" duration="32084000" />
-      <workItem from="1697818718606" duration="388000" />
+      <workItem from="1697818718606" duration="2763000" />
+      <workItem from="1697821502209" duration="3931000" />
+      <workItem from="1697825546259" duration="6444000" />
+      <workItem from="1697834018634" duration="1326000" />
+      <workItem from="1697835366164" duration="1116000" />
+      <workItem from="1698077358394" duration="5438000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -146,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697050675384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rb01 completed">
+      <option name="closed" value="true" />
+      <created>1697819196277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697819196277</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,13 +9,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>rb01</module>
-
+        <module>rb02</module>
     </modules>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hibernate.version>5.5.7.Final</hibernate.version>
+        <mysql.connector.version>8.0.30</mysql.connector.version>
     </properties>
 
     <dependencies>
@@ -23,16 +25,14 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.5.7.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
 
         <!-- MySQL Connector -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.30</version>
+            <version>${mysql.connector.version}</version>
         </dependency>
-
-
     </dependencies>
 </project>
