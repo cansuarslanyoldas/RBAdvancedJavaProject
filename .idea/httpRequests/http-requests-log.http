@@ -1,0 +1,180 @@
+GET http://localhost:8182/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T222934.404.json
+
+###
+
+GET http://localhost:8099/api/students/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T192035.404.json
+
+###
+
+GET http://localhost:8099/api/students/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T192027.404.json
+
+###
+
+GET http://localhost:8099/api/students/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191956-2.404.json
+
+###
+
+GET http://localhost:8099/api/students/api/endpoint
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191956-1.404.json
+
+###
+
+GET http://localhost:8099/api/students/api/endpoint
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191956.404.json
+
+###
+
+GET http://localhost:8099/api/students/api/endpoint
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191849.404.json
+
+###
+
+GET http://localhost:8099/api/students/api/endpoint
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191848.404.json
+
+###
+
+GET http://localhost:8099/api/students/api/endpoint
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-23T191715.404.json
+
+###
+
+GET http://localhost:8099/api/students/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T233705.404.json
+
+###
+
+GET http://localhost:8099/api/students/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T232549-1.404.json
+
+###
+
+GET http://localhost:8099/api/students/GetAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T232549.404.json
+
+###
+
+GET http://localhost:8099/api/students/GetAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T215619.404.json
+
+###
+
+GET http://localhost:8099/api/students/GetAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T214549.404.json
+
+###
+
+GET http://localhost:8099/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T214406.404.json
+
+###
+
+GET http://localhost:8099/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T213129.404.html
+
+###
+
+GET http://localhost:8099/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T212132.404.html
+
+###
+
+GET http://localhost:8098/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T212029-1.404.html
+
+###
+
+GET http://localhost:8098/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T212029.404.html
+
+###
+
+GET http://localhost:8098/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-20T201631.404.json
+
+###
+
