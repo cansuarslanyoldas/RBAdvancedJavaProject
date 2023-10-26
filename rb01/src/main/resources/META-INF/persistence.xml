@@ -5,9 +5,9 @@
              version="2.2">
     <persistence-unit name="my-persistence-unit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.rb.entity.Student</class>
-        <class>com.rb.entity.Course</class>
-        <class>com.rb.entity.Instructor</class>
+        <class>com.entity.com.rb.Student</class>
+        <class>com.entity.com.rb.Course</class>
+        <class>com.entity.com.rb.Instructor</class>
 
         <properties>
             <!-- Veritabanı bağlantı bilgileri -->
