@@ -4,6 +4,8 @@ package com.rb.entity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "courses")
 public class Course {
@@ -16,6 +18,8 @@ public class Course {
     private String courseCode;
     private int creditPoints;
 
+    private LocalDateTime cdate;
+    private LocalDateTime udate;
     @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "student_id")
@@ -66,4 +70,27 @@ public class Course {
         this.instructor = instructor;
     }
 
+    public LocalDateTime getCdate() {
+        return cdate;
+    }
+
+    public void setCdate(LocalDateTime cdate) {
+        this.cdate = cdate;
+    }
+
+    public LocalDateTime getUdate() {
+        return udate;
+    }
+
+    public void setUdate(LocalDateTime udate) {
+        this.udate = udate;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
 }
