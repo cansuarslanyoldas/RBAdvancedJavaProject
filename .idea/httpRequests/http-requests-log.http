@@ -1,3 +1,12 @@
+GET http://localhost:8182/getAllStudents
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-25T204934.404.json
+
+###
+
 GET http://localhost:8182/students
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)

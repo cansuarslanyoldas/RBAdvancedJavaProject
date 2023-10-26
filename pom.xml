@@ -10,6 +10,7 @@
     <modules>
         <module>rb01</module>
         <module>rb02</module>
+        <module>rb03</module>
     </modules>
 
     <properties>
@@ -21,12 +22,6 @@
     </properties>
 
     <dependencies>
-        <!-- Hibernate -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>${hibernate.version}</version>
-        </dependency>
 
         <!-- MySQL Connector -->
         <dependency>
@@ -34,5 +29,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector.version}</version>
         </dependency>
+
+
     </dependencies>
 </project>

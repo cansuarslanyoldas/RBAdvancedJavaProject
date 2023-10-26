@@ -4,26 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb01 completed">
-      <change afterPath="$PROJECT_DIR$/rb02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/application/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/serviceImpl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/homework/hw3-rb02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb02/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb02 completed">
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/initializer/TestDataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/repository/InstructorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/initializer/TestDataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/resources/homework/hw3-rb02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb01/src/main/java/com/rb/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/java/com/rb/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb01/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb01/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/PermanentResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/VisitorResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb02/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb02/src/main/java/com/rb/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +64,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2Wd0exNRbsBjriQXGouKAI4bZKf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,51 +75,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4bfd45d53750d77480be1e6f89cbe365&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject/rb03/src/main/java/com/rb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.43793103",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "4bfd45d53750d77480be1e6f89cbe365",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb03\src\main\java\com\rb" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb03\src\main\resources" />
+      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb03\src\main\java" />
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\META-INF" />
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java\com\rb\application" />
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java\com\rb\entity" />
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\java" />
-      <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\META-INF\Homework-file" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources\homework" />
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\rb02\src\main\resources" />
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rb.repository" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rb.main.Main" />
-      <module name="rb01" />
+  <component name="RunManager" selected="Spring Boot.Application (2)">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rb.Application" />
+      <module name="rb03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rb.main.*" />
+          <option name="PATTERN" value="rb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +134,6 @@
       </method>
     </configuration>
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -127,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="rb02 (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rb.application.Application" />
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rb02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rb.Application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rb.application.*" />
+          <option name="PATTERN" value="com.rb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +162,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rb03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rb.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="C:\Users\dell\AppData\Roaming\JetBrains\IntelliJIdea2023.1\openApiExport\RBAdvancedJavaProject-openapi_3.yaml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="HTTP Request.All in generated-requests" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +215,7 @@
       <workItem from="1697825546259" duration="6444000" />
       <workItem from="1697834018634" duration="1326000" />
       <workItem from="1697835366164" duration="1116000" />
-      <workItem from="1698077358394" duration="5438000" />
+      <workItem from="1698077358394" duration="17174000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -190,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697819196277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rb02 completed">
+      <option name="closed" value="true" />
+      <created>1698090459364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698090459364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rb02 completed">
+      <option name="closed" value="true" />
+      <created>1698090468682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698090468682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +278,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="rb01 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="rb01 completed" />
+    <MESSAGE value="rb02 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="rb02 completed" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.rb.entity.Student" memberName="courseList" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

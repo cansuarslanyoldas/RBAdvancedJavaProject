@@ -1,4 +1,4 @@
-package com.rb.application;
+package com.rb;
 
 
 import org.springframework.boot.SpringApplication;
