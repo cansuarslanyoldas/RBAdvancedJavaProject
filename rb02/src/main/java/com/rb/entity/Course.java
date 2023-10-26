@@ -1,6 +1,8 @@
 package com.rb.entity;
 
-import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "courses")
@@ -14,13 +16,15 @@ public class Course {
     private String courseCode;
     private int creditPoints;
 
-    @ManyToOne
-    @JoinColumn(name = "instructor_id")
-    private Instructor instructor;
-
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "student_id")
     private Student student;
+
+    @JsonBackReference
+    @ManyToOne
+    @JoinColumn(name = "instructor_id")
+    private Instructor instructor;
 
     public Long getId() {
         return id;
@@ -62,11 +66,4 @@ public class Course {
         this.instructor = instructor;
     }
 
-    public Student getStudent() {
-        return student;
-    }
-
-    public void setStudent(Student student) {
-        this.student = student;
-    }
 }

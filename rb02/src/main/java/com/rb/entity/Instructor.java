@@ -1,6 +1,10 @@
 package com.rb.entity;
 
-import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "instructors")
@@ -46,4 +50,5 @@ public abstract class Instructor {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
 }

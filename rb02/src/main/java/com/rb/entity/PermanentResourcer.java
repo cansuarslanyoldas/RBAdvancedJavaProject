@@ -1,7 +1,7 @@
 package com.rb.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "permanent_resourcers")

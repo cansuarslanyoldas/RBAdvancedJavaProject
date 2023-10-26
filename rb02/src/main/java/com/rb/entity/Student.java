@@ -1,6 +1,11 @@
 package com.rb.entity;
 
-import javax.persistence.*;
+
+
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
+
 import java.util.List;
 
 @Entity
@@ -16,7 +21,7 @@ public class Student {
     private String birthDate;
     private String address;
     private String gender;
-
+    @JsonBackReference
     @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Course> courseList;
 
