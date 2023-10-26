@@ -6,10 +6,7 @@ import com.rb.entity.PermanentResourcer;
 import com.rb.entity.Student;
 import com.rb.entity.VisitorResourcer;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
