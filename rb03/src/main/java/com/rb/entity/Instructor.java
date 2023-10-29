@@ -2,29 +2,40 @@ package com.rb.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+
 
 @Entity
-@Table(name = "instructors")
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public abstract class Instructor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
     private String name;
     private String address;
     private String phoneNumber;
 
-    public Long getId() {
-        return id;
+    @JsonBackReference
+    @OneToMany(mappedBy = "instructor")
+    private Set<Course> courseList = new HashSet<>();
+    public Instructor() {
+
+    }
+    public Instructor(String name) {
+        this.name = name;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public Instructor(String name, String address, String phoneNumber) {
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
@@ -51,4 +62,19 @@ public abstract class Instructor {
         this.phoneNumber = phoneNumber;
     }
 
+    public Set<Course> getCourseList() {
+        return courseList;
+    }
+
+    public void setCourseList(Set<Course> courseList) {
+        this.courseList = courseList;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 }

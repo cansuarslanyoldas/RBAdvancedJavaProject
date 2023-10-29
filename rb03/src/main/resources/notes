@@ -1,11 +1,7 @@
-package com.rb.config;
+swagger-url: http://localhost:8182/swagger-ui/index.html
 
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
-import io.swagger.v3.oas.models.Components;
-import io.swagger.v3.oas.models.OpenAPI;
-import io.swagger.v3.oas.models.info.Info;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+example-url: http://localhost:8182/v3/api-docs
+
 
 @OpenAPIDefinition
 @Configuration

@@ -9,6 +9,18 @@ public class VisitorResourcer extends Instructor {
 
     private double hourlySalary;
 
+    public VisitorResourcer(){
+
+    }
+    public VisitorResourcer(double hourlySalary){
+        this.hourlySalary=hourlySalary;
+    }
+
+    public VisitorResourcer(String name, String address, String phoneNumber, double hourlySalary) {
+        super(name, address, phoneNumber);
+        this.hourlySalary = hourlySalary;
+    }
+
     public double getHourlySalary() {
         return hourlySalary;
     }

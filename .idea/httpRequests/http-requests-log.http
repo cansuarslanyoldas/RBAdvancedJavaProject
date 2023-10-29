@@ -1,3 +1,143 @@
+DELETE http://localhost:8182/students/remove/2
+{:
+    "id": "2"
+}:
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-29T043316.400.html
+
+###
+
+POST http://localhost:8182/students/create
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-29T001836.400.json
+
+###
+
+POST http://localhost:8182/students/create
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-28T235310.400.json
+
+###
+
+GET http://localhost:8182/findStudentById/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-28T153641.200.json
+
+###
+
+GET http://localhost:8182/findStudentById/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-28T153339.200.json
+
+###
+
+POST http://localhost:8182/students/create
+Content-Type: application/json
+Content-Length: 680
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 100,
+  "name": "string",
+  "gender": "string",
+  "address": "string",
+  "birthDate": "string",
+  "courseList": [
+    {
+      "id": 100,
+      "courseName": "string",
+      "courseCode": "string",
+      "creditPoints": 100,
+      "cdate": "2023-10-27T20:09:13.289Z",
+      "udate": "2023-10-27T20:09:13.289Z",
+      "student": {
+        "id": 100,
+        "name": "string",
+        "birthDate": "string",
+        "address": "string",
+        "gender": "string",
+        "courseList": [
+          "string"
+        ]
+      },
+      "instructor": {
+        "id": 100,
+        "name": "string",
+        "address": "string",
+        "phoneNumber": "string"
+      }
+    }
+  ]
+}
+
+<> 2023-10-27T231018.415.json
+
+###
+
+POST http://localhost:8182/students/create
+Content-Type: application/json
+Content-Length: 416
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+
+  "name": "FFDFD",
+  "gender": "DSFDSF",
+  "address": "DFSDF",
+  "birthDate": "SDFSDF",
+  "courseList": [
+    {
+
+      "courseName": "SDFSDF",
+      "courseCode": "SDFSDF",
+      "creditPoints": 0,
+      "cdate": "2023-10-27T00:09:40.151Z",
+      "udate": "2023-10-27T00:09:40.151Z",
+      "instructor": {
+
+        "name": "SDFSDF",
+        "address": "DSFSDF",
+        "phoneNumber": "SDFSDF"
+      }
+    }
+  ]
+}
+
+<> 2023-10-27T230858.415.json
+
+###
+
+POST http://localhost:8182/students/create
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-27T030321.400.json
+
+###
+
 GET http://localhost:8182/getAllStudents
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)

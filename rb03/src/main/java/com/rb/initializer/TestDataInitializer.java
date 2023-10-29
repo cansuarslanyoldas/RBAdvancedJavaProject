@@ -1,9 +1,6 @@
 package com.rb.initializer;
 
-import com.rb.entity.Course;
-import com.rb.entity.PermanentResourcer;
-import com.rb.entity.Student;
-import com.rb.entity.VisitorResourcer;
+import com.rb.entity.*;
 import com.rb.repository.CourseRepository;
 import com.rb.repository.InstructorRepository;
 import com.rb.repository.StudentRepository;
@@ -17,7 +14,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Component
 public class TestDataInitializer implements ApplicationRunner {
@@ -39,50 +38,37 @@ public class TestDataInitializer implements ApplicationRunner {
     @Transactional
     public void run(ApplicationArguments args) throws Exception {
 
-        Student student = new Student();
-        student.setName("Cansu");
-        student.setGender("K");
-        student.setAddress("Çorlu");
-        student.setBirthDate("11.06.1993");
+        Student student1 = new Student();
+        student1.setName("Cansu");
+        student1.setGender("K");
+        student1.setAddress("Çorlu");
+        student1.setBirthDate("11.06.1993");
 
-        Course course1 = new Course();
-        course1.setCourseName("Java");
-        course1.setCreditPoints(50);
-        course1.setCourseCode("1");
-        course1.setCdate(LocalDateTime.now());
-        course1.setStudent(student);
+        Student student2 = new Student();
+        student2.setName("Metin");
+        student2.setGender("E");
+        student2.setAddress("Çorlu");
+        student2.setBirthDate("01.04.1993");
 
-        Course course2 = new Course();
-        course2.setCourseName("Hibernate");
-        course2.setCreditPoints(20);
-        course2.setCourseCode("2");
-        course2.setCdate(LocalDateTime.now());
-        course2.setStudent(student);
+        Instructor instructor1 = new VisitorResourcer("Koray","XX Mah.","5433777884",20.0);
+        Instructor instructor2 = new PermanentResourcer("Güney","YY Mah.","5433775554",50.0);
 
-        List<Course> courseList = new ArrayList<>();
-        courseList.add(course1);
-        courseList.add(course2);
-        student.setCourseList(courseList);
+        Course course1 = new Course("JAVA","1",20,LocalDateTime.now(),LocalDateTime.now());
+        Course course2 = new Course("SPRING","2",50,LocalDateTime.now(),LocalDateTime.now());
 
-        VisitorResourcer visitorResourcer = new VisitorResourcer();
-        visitorResourcer.setName("Koray");
-        visitorResourcer.setHourlySalary(20.0);
+        instructor1.getCourseList().add(course1);
+        instructor2.getCourseList().add(course2);
 
 
-        PermanentResourcer permanentResourcer = new PermanentResourcer();
-        permanentResourcer.setName("Güney");
-        permanentResourcer.setFixedSalary(5000.0);
+        studentRepository.save(student1);
+        studentRepository.save(student2);
 
+        instructorRepository.save(instructor1);
+        instructorRepository.save(instructor2);
 
-
-        course1.setInstructor(permanentResourcer);
-        course2.setInstructor(visitorResourcer);
-
-        studentRepository.save(student);
         courseRepository.save(course1);
         courseRepository.save(course2);
-        instructorRepository.save(visitorResourcer);
-        instructorRepository.save(permanentResourcer);
+
 
         System.out.println("Start....");
     }

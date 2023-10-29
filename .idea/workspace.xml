@@ -5,12 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb03 completed">
-      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/repository/InstructorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/controller/InstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/dto/InstructorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/enums/InstructorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/exception/CourseNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/exception/StudentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/mapper/ConcreteInstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/mapper/InstructorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/Impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/Impl/InstructorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/InstructorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb03/src/main/resources/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/PermanentResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/VisitorResourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/initializer/TestDataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/initializer/TestDataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rb03/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Private Environment File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -27,6 +53,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" environment="dev" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -60,7 +90,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject/rb03/src/main/java/com/rb/repository",
+    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RobotDreamsSpringProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +98,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.43793103",
+    "rest.client.default.execution.environment": "dev",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "4bfd45d53750d77480be1e6f89cbe365",
     "vue.rearranger.settings.migration": "true"
@@ -87,6 +118,8 @@
       <recent name="C:\Users\dell\IdeaProjects\SchoolManagementSystem\RBAdvancedJavaProject\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rb.exception" />
+      <recent name="com.rb.controller" />
       <recent name="com.rb.repository" />
     </key>
   </component>
@@ -165,10 +198,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="HTTP Request.All in generated-requests" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +219,7 @@
       <workItem from="1697825546259" duration="6444000" />
       <workItem from="1697834018634" duration="1326000" />
       <workItem from="1697835366164" duration="1116000" />
-      <workItem from="1698077358394" duration="19085000" />
+      <workItem from="1698077358394" duration="84640000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -260,7 +293,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698355773293</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="rb03 completed">
+      <option name="closed" value="true" />
+      <created>1698357741599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698357741599</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rb03 completed">
+      <option name="closed" value="true" />
+      <created>1698357764804</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698357764804</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +336,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="rb03 completed" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/rb03/src/main/java/com/rb/services/StudentService.java</url>
+          <line>13</line>
+          <properties class="com.rb.services.StudentService" method="updateStudent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.rb.entity.Student" memberName="courseList" />
