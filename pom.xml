@@ -11,6 +11,7 @@
         <module>rb01</module>
         <module>rb02</module>
         <module>rb03</module>
+        <module>rb04</module>
     </modules>
 
     <properties>
