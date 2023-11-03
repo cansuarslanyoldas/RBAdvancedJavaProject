@@ -41,6 +41,7 @@ public class TodoController {
     @PostMapping("/todos")
     public Todo saveTodos(@RequestBody Todo post) {
         post.setInsertDate(LocalDateTime.now());
+        post.setCompleted(true);
         return todoRepository.save(post);
     }
 }
