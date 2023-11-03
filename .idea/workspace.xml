@@ -4,48 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb03 completed">
-      <change afterPath="$PROJECT_DIR$/rb04/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/controller/InstructorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/dto/CourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/dto/InstructorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/dto/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/enums/InstructorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/exception/CourseNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/exception/StudentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/initializer/TestDataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/mapper/ConcreteInstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/mapper/InstructorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/repository/InstructorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/Impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/Impl/InstructorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/InstructorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/resources/homework/hw3-rb02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb04/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb04 completed">
+      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/model/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/repository/TodoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb04/src/main/java/com/todos/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rb04/src/main/java/com/todos/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb04/src/main/java/com/todos/model/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb04/src/main/java/com/todos/repository/PostRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +197,7 @@
       <workItem from="1697835366164" duration="1116000" />
       <workItem from="1698077358394" duration="85860000" />
       <workItem from="1698691832197" duration="1566000" />
-      <workItem from="1698702526819" duration="6511000" />
+      <workItem from="1698702526819" duration="7028000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -329,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698617639192</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rb04 completed">
+      <option name="closed" value="true" />
+      <created>1699052741730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699052741730</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +327,8 @@
     <MESSAGE value="rb02 completed" />
     <MESSAGE value="rb01 updated" />
     <MESSAGE value="rb03 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="rb03 completed" />
+    <MESSAGE value="rb04 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="rb04 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

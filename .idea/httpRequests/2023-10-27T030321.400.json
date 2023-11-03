@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-10-27T00:03:21.571+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/students/create"
+}

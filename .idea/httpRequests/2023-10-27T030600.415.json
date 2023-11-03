@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-10-27T00:06:00.265+00:00",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "path": "/students/create"
+}

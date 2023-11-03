@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
-
 @Entity
 @Getter
 @Setter
@@ -14,7 +13,7 @@ import java.time.LocalDateTime;
 //@ToString
 //@EqualsAndHashCode
 //@Data
-public class Post {
+public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)
@@ -22,7 +21,6 @@ public class Post {
     private int userId;
     //@NonNull
     private String title;
-    private String body;
     private LocalDateTime insertDate;
     private boolean completed;
 

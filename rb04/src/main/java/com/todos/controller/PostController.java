@@ -1,7 +1,5 @@
 package com.todos.controller;
 
-import com.todos.model.Post;
-import com.todos.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -19,7 +17,7 @@ public class PostController {
 
     @GetMapping("/posts")
     public List<Post> getAllPosts() {
-        Post[] posts = restTemplate.getForObject("https://jsonplaceholder.typicode.com/posts",
+        Post[] posts = restTemplate.getForObject("https://jsonplaceholder.typicode.com/todos",
                 Post[].class);
         List<Post> postList = Arrays.asList(posts);
         postList.stream().forEach(post -> {
