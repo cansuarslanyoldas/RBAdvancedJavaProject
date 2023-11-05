@@ -1,0 +1,39 @@
+services:
+  app:
+    entrypoint:
+      - sleep
+      - infinity
+    image: docker/welcome-to-docker:latest
+    init: true
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+    networks:
+      - my-app-network
+
+  postgres:
+    image: postgres:latest
+    container_name: some-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: folksdev
+    ports:
+      - "5432:5432"
+    networks:
+      - my-app-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: angry_joliot
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ccansuarslann@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: 231465Camy.
+    ports:
+      - "5050:80"
+    networks:
+      - my-app-network
+
+networks:
+  my-app-network:

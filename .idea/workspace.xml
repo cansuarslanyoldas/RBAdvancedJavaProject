@@ -4,49 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb04 completed">
-      <change afterPath="$PROJECT_DIR$/rb05/.gitignore" afterDir="false" />
+    <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb05 completed">
       <change afterPath="$PROJECT_DIR$/rb05/DockerFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/InstructorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/CourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/InstructorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/PermanentResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/VisitorResourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/enums/InstructorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/exception/CourseNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/exception/StudentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/initializer/TestDataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/ConcreteInstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/InstructorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/InstructorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/InstructorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/InstructorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/todos/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/todos/controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/todos/model/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/todos/repository/TodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/resources/homework/hw3-rb02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/compose-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/test/java/DockerApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb05/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rb05/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +70,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.43793103",
@@ -134,25 +99,21 @@
       <recent name="com.rb.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rb.Application" />
-      <module name="rb03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="DockerApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rb05" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DockerApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="rb02" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rb05" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rb.Application" />
       <extension name="coverage">
         <pattern>
@@ -206,13 +167,17 @@
       <option name="specificationPath" value="C:\Users\dell\AppData\Roaming\JetBrains\IntelliJIdea2023.1\openApiExport\RBAdvancedJavaProject-openapi_3.yaml" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.DockerApplicationTest" />
         <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="HTTP Request.All in generated-requests" />
-        <item itemvalue="Spring Boot.Application (2)" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +197,7 @@
       <workItem from="1697835366164" duration="1116000" />
       <workItem from="1698077358394" duration="85860000" />
       <workItem from="1698691832197" duration="1566000" />
-      <workItem from="1698702526819" duration="9887000" />
+      <workItem from="1698702526819" duration="22046000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -362,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699053591841</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="rb05 completed">
+      <option name="closed" value="true" />
+      <created>1699126694273</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699126694273</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +360,8 @@
     <MESSAGE value="rb01 updated" />
     <MESSAGE value="rb03 completed" />
     <MESSAGE value="rb04 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="rb04 completed" />
+    <MESSAGE value="rb05 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="rb05 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
