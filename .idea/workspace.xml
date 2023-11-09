@@ -5,12 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4eacb-3a64-4f9f-8917-a1386750f645" name="Changes" comment="rb05 completed">
-      <change afterPath="$PROJECT_DIR$/rb05/DockerFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/compose-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb05/src/test/java/DockerApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/FinalProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/configuration/BeanConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/controller/CurrencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/enums/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/exception/ValidationErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/initializer/CurrencyExchangeDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/ConversionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/ConversionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/ConversionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/CurrencyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/CurrencyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/CurrencySubModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/model/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/repository/ConversionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/repository/CurrencyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/main/java/com/finalproject/service/CurrencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb05/src/test/java/FinalProjectApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/DockerFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/compose-dev.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rb05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb05/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/InstructorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/CourseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/InstructorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/dto/StudentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/PermanentResourcer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/entity/VisitorResourcer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/enums/InstructorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/exception/CourseNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/exception/StudentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/initializer/TestDataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/ConcreteInstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/InstructorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/InstructorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/InstructorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/Impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/InstructorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/rb/services/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/todos/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/todos/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/todos/model/Todo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/java/com/todos/repository/TodoRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rb05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rb05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/resources/homework/hw3-rb02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rb05/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rb05/src/test/java/DockerApplicationTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +118,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject/rb05",
+    "last_opened_file_path": "C:/Users/dell/IdeaProjects/SchoolManagementSystem/RBAdvancedJavaProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +129,7 @@
     "project.structure.side.proportion": "0.43793103",
     "rest.client.default.execution.environment": "dev",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "c59551db4e634081e0de8b5a1c7c79d7",
+    "spring.configuration.checksum": "4c4ad607c46957f7d1e6918dfdbc10ec",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,10 +152,7 @@
       <recent name="com.rb.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.FinalProjectApplication">
     <configuration name="DockerApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rb05" />
       <option name="PACKAGE_NAME" value="" />
@@ -151,6 +201,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FinalProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rb05" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.finalproject.FinalProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SwaggerCodegen">
       <option name="activeConfigurationType" value="FILE" />
       <option name="configurationPath" value="" />
@@ -168,16 +231,18 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FinalProjectApplication" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="JUnit.DockerApplicationTest" />
         <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="HTTP Request.All in generated-requests" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +262,8 @@
       <workItem from="1697835366164" duration="1116000" />
       <workItem from="1698077358394" duration="85860000" />
       <workItem from="1698691832197" duration="1566000" />
-      <workItem from="1698702526819" duration="22046000" />
+      <workItem from="1698702526819" duration="23140000" />
+      <workItem from="1699210141857" duration="17724000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -335,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699126694273</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rb05 completed">
+      <option name="closed" value="true" />
+      <created>1699204161319</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699204161319</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
